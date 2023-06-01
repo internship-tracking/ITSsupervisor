@@ -12,6 +12,8 @@ import Supervisor from "./pages/supervisor/Supervisor";
 import Companies from "./pages/supervisor/Companies";
 import SupervisorPassword from "./pages/supervisor/SupervisorPassword";
 import SupervisorProfile from "./pages/supervisor/SupervisorProfile";
+import Students from "./pages/supervisor/Students";
+import InternshipInfo from "./pages/supervisor/InternshipInfo";
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
           <Route path="/supervisor/companies" element={<Companies />} />
           <Route path="/supervisor/password" element={<SupervisorPassword />} />
           <Route path="/supervisor/profile" element={<SupervisorProfile />} />
+          <Route path="/supervisor/students" element={<Students />} />
+          <Route path="/supervisor/internshipinfos" element={<InternshipInfo/>} />
 
         </Routes>
       </BrowserRouter>
